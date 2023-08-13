@@ -24,7 +24,7 @@ input[type=color] {
     border-radius: 0;
     border: none;
     appearance: none;
-    background-image: url('/dolphynote/images/fill-clr.png');
+    background-image: url('/dolphynote/dolphynote/images/fillclr.png');
     background-color: transparent !important;
     overflow: hidden;
     margin-top: 4px;
