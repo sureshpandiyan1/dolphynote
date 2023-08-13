@@ -2,6 +2,7 @@
 
 # Dolphynote
 <img width="606" alt="Screenshot 2023-08-13 195031" src="https://github.com/sureshpandiyan1/dolphynote/assets/112636345/33c56de1-03a0-4a6a-a1f1-1d55704839ce">
+
 Dolphynote is easy to create a sticky notes for your daily habits or anything you want to write as a note. it's friendly user interface
 for everyone and have a extra features too.
 
