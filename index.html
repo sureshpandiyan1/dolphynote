@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="styles/css/master.css">
+  </head>
+  <body>
+    <div class="header" style="display: flex;width: 97%;margin: auto;height: 70px;margin-bottom: 30px;">
+    <div id='logo'>
+      <img src='./images/dolphylogo.png' width="100px" height="100px">
+    </div>
+    <div id='nsearcher'>
+      <input type="search" id='nsearch' placeholder="search the notes">
+    </div>
+  </div>
+    <div style="display: flex; width: 98%;height: 400px; margin: auto;gap: 10px; justify-content: space-between;">
+    <div id='sidebar'>
+       <div class='progress'>
+         <progress id="thentsts" value=0 max=100></progress>
+      <div id='helpst'></div>
+       </div>
+    <div class='head_s'>
+    <div class="circle_round circle_fnt" id="tap_tcn">
+      <span>+</span>
+      </div>
+      </div>
+      <div id="the_box" class="c_style"></div>
+      <div id='theme'>
+      </div>
+    </div>
+    <div style="display: flex; width: 70%; margin: auto;">
+    <div id='lnotes'></div>
+  </div>
+  </div>
+  <div id='footers'>
+    <div class="github">github</div>
+  </div>
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>
