@@ -248,7 +248,7 @@ loadNote.prototype.toHTML = function() {
       expandnote.style.cssText = 'position: absolute; top: 0px; width: 28px; right: 0px; text-align: center; color: #141414; background: white; opacity: 0.5;'
       expandnote.textContent = '⤢'
       delnote.setAttribute('id','trsh_'+dolphyIds.split('_')[1])
-      delnote.style.cssText = 'position: absolute; bottom: 10px;  right: 5px;   width: 27px; background-size: 26px 23px; height: 23px; border-radius: 0; border: none; appearance: none; background-image: url(/modernsmartnotes/images/trsh-2.png); cursor: pointer; background-color: transparent !important;'
+      delnote.style.cssText = 'position: absolute; bottom: 10px;  right: 5px;   width: 27px; background-size: 26px 23px; height: 23px; border-radius: 0; border: none; appearance: none; background-image: url(./images/trsh-2.png); cursor: pointer; background-color: transparent !important;'
       delnote.setAttribute('onclick', 'dels(event)')
       shownote.setAttribute('id', dolphyIds)
       
