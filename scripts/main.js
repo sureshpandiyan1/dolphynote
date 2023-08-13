@@ -1,6 +1,6 @@
 
 
-function dolphyNote(appname) {
+function modernNote(appname) {
   this.appname = appname
 }
 
@@ -33,7 +33,7 @@ function emojiinterface() {
 
 
 
-dolphyNote.prototype.tapInterface = function() {
+modernNote.prototype.tapInterface = function() {
   
   
   var taponce = 0;
@@ -100,7 +100,7 @@ dolphyNote.prototype.tapInterface = function() {
 
   
 
-  const dolphyInterface = new dolphyNote('dolphynote')
+  const dolphyInterface = new modernNote('dolphynote')
   window.addEventListener('click', dolphyInterface.PropertyInterface, false)
   
   document.getElementById('closethebox').onclick = function () {
@@ -165,7 +165,7 @@ function emojtar() {
 
 
 var incSize = 0;
-dolphyNote.prototype.PropertyInterface = function(e) {
+modernNote.prototype.PropertyInterface = function(e) {
   try {
   const CONTROLPROPS = document.getElementById('tprops').children
   const GETPROP = getTarget(e)
@@ -215,15 +215,15 @@ dolphyNote.prototype.PropertyInterface = function(e) {
 
 
 function dolphyNote() {
-  const DOLPHYTAP = new dolphyNote('sdolphy')
+  const DOLPHYTAP = new modernNote('sdolphy')
   DOLPHYTAP.tapInterface()
 }
 
 function loadNote(appname) {
-  dolphyNote.call(this, appname)
+  modernNote.call(this, appname)
 }
 
-loadNote.prototype = new dolphyNote()
+loadNote.prototype = new modernNote()
 loadNote.prototype.constructor = loadNote
 
 function dels(e) {
