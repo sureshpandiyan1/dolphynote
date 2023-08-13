@@ -24,7 +24,7 @@ input[type=color] {
     border-radius: 0;
     border: none;
     appearance: none;
-    background-image: url('/modernsmartnotes/images/fill-clr.png');
+    background-image: url('/dolpnote/images/fill-clr.png');
     background-color: transparent !important;
     overflow: hidden;
     margin-top: 4px;
@@ -83,7 +83,7 @@ input[type=color]::-webkit-color-swatch-wrapper {
     position: absolute;
     margin-left: 121px;
     bottom: 10px;
-    background-image: url('/modernsmartnotes/images/trash.png');
+    background-image: url('/dolphynote/images/trash.png');
 }
 
 
